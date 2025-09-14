@@ -1,6 +1,8 @@
 # Outstaller
 
-<img src="Outstaller.png" alt="Logo">
+<p align="center">
+    <img src="Outstaller.png" alt="Logo" width="120" />
+</p>
 
 中文 | [English](./README_EN.md)
 <hr/>
