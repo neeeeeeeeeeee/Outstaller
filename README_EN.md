@@ -8,7 +8,7 @@
 [中文](./README.md) | English
 <hr/>
 
-Outstaller is a simple and efficient application installer for macOS, designed to provide users with a streamlined installation experience that allows apps to be installed anywhere, including external storage devices.
+Outstaller is a simple and efficient application installer for macOS, designed to provide users with a streamlined installation experience that allows .app files to be installed anywhere, including external storage devices.
 
 ## Features
 
