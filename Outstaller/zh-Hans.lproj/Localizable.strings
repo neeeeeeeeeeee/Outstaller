@@ -1,0 +1,46 @@
+/* Localizable.strings (Chinese Simplified)
+Outstaller - 应用安装器
+*/
+
+// 主界面提示信息
+"drop_prompt" = "请将 .app 文件拖拽到此处";
+"initial_setup_prompt" = "请先设置安装目录";
+"setup_success_prompt" = "设置成功！请将 .app 文件拖拽到此处";
+"current_install_path_label" = "当前安装目录：\n%@";
+
+// 安装状态
+"installing_status" = "正在安装...";
+"install_success_message" = "%@ 安装成功！";
+"install_failure_message" = "安装失败：\n%@";
+
+// 进度信息
+"progress_size_label" = "大小：";
+"progress_speed_label" = "速度：";
+"progress_time_remaining_label" = "剩余时间：";
+
+// 安装操作状态
+"removing_old_files" = "正在删除旧文件...";
+"copying_files" = "正在复制文件...";
+"creating_link" = "正在创建应用程序链接...";
+"installation_complete" = "安装完成";
+
+// 覆盖确认对话框
+"overwrite_alert_title" = "更新现有应用程序？";
+"overwrite_alert_message" = "已存在名为 %@ 的应用程序。是否要替换它？";
+"overwrite_button_replace" = "替换";
+"overwrite_button_cancel" = "取消";
+
+// 错误信息
+"error_not_an_app" = "拖拽的文件不是 .app 应用程序文件。";
+"error_parsing_plist" = "无法解析应用程序信息 (Info.plist)。";
+"error_calculating_size" = "无法计算应用程序大小。";
+"error_removing_old_files" = "删除旧文件失败";
+"error_copying_files" = "复制应用程序文件失败。";
+"error_creating_link" = "创建应用程序链接失败";
+"error_file_exists_destination" = "目标目录中已存在名为 %@ 的文件。";
+"error_file_exists_applications" = "/Applications 文件夹中已存在名为 %@ 的文件或链接。";
+"error_workspace_copy_failed" = "系统无法复制 %@。请检查权限和磁盘空间。";
+
+// 额外的调试信息（可选）
+"error_link_exists_real_app" = "Applications 目录中已存在真实的应用程序，而非链接。请手动删除后重试。";
+"error_permission_denied" = "权限被拒绝。请确保您有足够的权限访问目标目录。";

@@ -1,0 +1,46 @@
+/* Localizable.strings (English)
+Outstaller
+*/
+
+// Main View Prompts
+"drop_prompt" = "Please drag and drop the .app file here";
+"initial_setup_prompt" = "Please set up an installation directory first";
+"setup_success_prompt" = "Setup successful! Please drag the .app file here";
+"current_install_path_label" = "Current install directory:\n%@";
+
+// Installation Status
+"installing_status" = "Installing...";
+"install_success_message" = "%@ installed successfully!";
+"install_failure_message" = "Installation failed:\n%@";
+
+// Progress Information
+"progress_size_label" = "Size:";
+"progress_speed_label" = "Speed:";
+"progress_time_remaining_label" = "Time remaining:";
+
+// Installation Operations
+"removing_old_files" = "Removing old files...";
+"copying_files" = "Copying files...";
+"creating_link" = "Creating application link...";
+"installation_complete" = "Installation complete";
+
+// Overwrite Alert
+"overwrite_alert_title" = "Update Existing Application?";
+"overwrite_alert_message" = "An application named %@ already exists. Do you want to replace it?";
+"overwrite_button_replace" = "Replace";
+"overwrite_button_cancel" = "Cancel";
+
+// Errors
+"error_not_an_app" = "The dragged item is not an .app file.";
+"error_parsing_plist" = "Failed to parse application information (Info.plist).";
+"error_calculating_size" = "Failed to calculate application size.";
+"error_removing_old_files" = "Failed to remove old files";
+"error_copying_files" = "Failed to copy application files.";
+"error_creating_link" = "Failed to create application link";
+"error_file_exists_destination" = "A file named %@ already exists in the destination directory.";
+"error_file_exists_applications" = "A file or link named %@ already exists in the /Applications folder.";
+"error_workspace_copy_failed" = "The system failed to copy %@. Please check permissions and disk space.";
+
+// Additional debug information (optional)
+"error_link_exists_real_app" = "A real application exists in Applications directory, not a link. Please remove manually and try again.";
+"error_permission_denied" = "Permission denied. Please ensure you have sufficient permissions to access the target directory.";
